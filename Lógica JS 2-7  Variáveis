@@ -1,0 +1,23 @@
+function preload(){
+  alert("olá,seja bem vindo!")
+  alert("vou te fazer algumas perguntas para prosseguirmos!")
+}
+
+
+function setup() {
+  createCanvas(400, 400);
+
+const nome = prompt("Qual seu nome");
+const cidade = prompt("Qual a sua cidade");
+const idade = prompt("Quantos anos você tem?");
+const estudando = prompt ("está estudando programação? ")
+    if (estudando == "sim"){
+      alert("Que bom assim você vai longe!"),prompt("Qual linguagem de programação você está fazendo?"),alert (msg)};
+    if (estudando == "não"){
+     alert("Que pena,visite este site ALURA.COM.BR e depois volte aqui para darmos continuidade!")}
+  
+const msg = "Cadastro realizado ${nome},estaremos enviando um curso em 3 dias para ${cidade}";
+
+function draw() {
+  background(220);
+}
