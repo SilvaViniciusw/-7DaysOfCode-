@@ -1,0 +1,21 @@
+function preload(){
+  alert("olá,seja bem vindo!")
+  alert("vou te fazer algumas perguntas para prosseguirmos!")
+}
+
+
+function setup() {
+  createCanvas(400, 400);
+
+const nome = prompt("Qual seu nome");
+const cidade = prompt("Qual a sua cidade");
+const idade = prompt("Quantos anos você tem?");
+const linguagem = prompt ("qual linguagem você está estudando? ");
+const gostando = prompt ("está gostando do curso?")
+    if ( gostando == "sim"){
+      alert(`${nome}, como prêmio estaremos enviando para ${cidade}, um kit de estudos em ${linguagem}, não perde tempo!!`)};
+    if ( gostando == "não"){
+      alert(`não Desista ${nome}, você tem ${idade} anos e ainda tem muito tempo para aprender!!`)};
+  
+}
+
